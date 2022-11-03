@@ -8,9 +8,9 @@ public class Score : MonoBehaviour
     private void OnCollisionEnter(Collision other)
     {
         if(other.gameObject.tag != "Hit"){
-        //Prints score to console and increments the score by 1 everytime the player bumps into something.
-        hits++;
-        Debug.Log("Outch! You bumped into me " + hits + " times! :c");
+            //Prints score to console and increments the score by 1 everytime the player bumps into something.
+            hits++;
+            Debug.Log("Outch! You bumped into me " + hits + " times! :c");
         }
     }
 }
